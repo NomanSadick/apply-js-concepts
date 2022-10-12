@@ -1,3 +1,4 @@
+// remove duplicate words in string javascript
 // First way 
 const speech = "Bangladesh forms the  sovereign part of the     historic and ethnolinguistic region of Bengal.";
 let count = 0;
