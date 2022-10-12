@@ -1,13 +1,17 @@
-const speech = "Bangladesh forms the  sovereign part of the   historic and ethnolinguistic region of Bengal.";
+// First way 
+const speech = "Bangladesh forms the  sovereign part of the     historic and ethnolinguistic region of Bengal.";
 let count = 0;
-for (const char of speech) {
+for (i=0; i<speech.length; i++) {
+    let char = speech[i]
     // console.log(char);
-    if (char == " " && char != " ") {
+    if (char == " " && speech[i-1] != " ") {
         count++;
     }
 }
 count++;
 console.log(count);
+
+// Second way
 
 function countWords(str) {
     const arr = str.split(' ');
@@ -16,4 +20,4 @@ function countWords(str) {
   }
   
   console.log(countWords('One two three'));
-  console.log(countWords('This   is  a long string')); 
+  console.log(countWords('This is a long string')); 
