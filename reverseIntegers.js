@@ -9,6 +9,7 @@ const revInt = num => {
 const output = revInt(-123);
 console.log(output);
 
+
 // 1.
 const numbers = [1, 2, 3];
 for (var index = 0; index < numbers.length; index++);{

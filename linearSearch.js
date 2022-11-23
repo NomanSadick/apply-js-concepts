@@ -10,7 +10,7 @@ function linearSearch(array, target){
     return "Not Found";
 }
 
-console.log(linearSearch(["a", "b", "c", "d", "c"], "c")); //Not Found
+console.log(linearSearch(["a", "b", "c", "d", "c"], "c")); //2
 console.log(linearSearch([1, 2, 3, 4], 1)) // 0
 console.log(linearSearch([1, 2, 3, 4], 4)) // 3
 console.log(linearSearch([1, 2, 3, 4], 6)) // Not Found
