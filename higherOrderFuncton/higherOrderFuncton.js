@@ -62,3 +62,4 @@ const players = [
 // example 2. with higher order function
 const playerAvgWithThirtySeven = players.filter(player => player.avg >= 37);
 console.log(playerAvgWithThirtySeven);
+
