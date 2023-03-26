@@ -34,7 +34,7 @@ class Cricketer extends Person {
 }
 
 let sakib = new Cricketer('Sakib', 34, "All ronder", "BD")
- console.log(sakib.eat());
+console.log(sakib.eat());
 
 
 // getter, setter

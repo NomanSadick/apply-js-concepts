@@ -33,7 +33,7 @@ function Person(name, age) {
 }
 Person.prototype = {
     eat() {
-         console.log(`Person is eating`);
+         console.log(`${this.name} is eating`);
      },
  
     sleep() {

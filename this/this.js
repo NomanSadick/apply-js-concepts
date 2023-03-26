@@ -1,4 +1,5 @@
-// implicit binding 
+// this keno dorkar: ai ta function ke different context ke reuse korte help kore
+// implicit binding rule:sober age dekhbo je kothai call hoyeche then tar age dekhbo .notation ache kina jodi thake tahole tar immideat left je ache saitai denote korbe this ke 
 // explicit binding 
 // new binding 
 // window binding 

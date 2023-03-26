@@ -1,3 +1,4 @@
+// higher order function:ai ta amon akta function jaita onno akta function ar upor kaj kore.saita hote pare onno akta function ke ak ba akadhik  parameter hisabe nibe or return korbe or 2 tai kaj e korbe.
 // create higher order function 
 // function hello() {
 //     return function() {

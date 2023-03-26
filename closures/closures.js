@@ -38,19 +38,38 @@ console.dir(sum);
 // console.log(i);
 
 //5.closures example
-(function () {
-    var num1 = 3;
-    var num2 = 2;
+// (function () {
+//     var num1 = 3;
+//     var num2 = 2;
 
-    var sum = function() {
-    return num1 + num2;
-    };
-    console.log(sum());
-    console.dir(sum);
+//     var sum = function() {
+//     return num1 + num2;
+//     };
+//     console.log(sum());
+//     console.dir(sum);
 
-    num1 = 5;
-    num2 = 6;
+//     num1 = 5;
+//     num2 = 6;
 
-    console.log(sum());
-    console.dir(sum);
-})();
+//     console.log(sum());
+//     console.dir(sum);
+// })();
+
+//6.closures example
+
+function temporary () {
+    let counter = 0;
+
+    return function () {
+        counter = counter + 1;
+    }
+}
+
+const add = temporary();
+
+console.dir(add)
+add()
+console.dir(add)
+add()
+console.dir(add)
+add()

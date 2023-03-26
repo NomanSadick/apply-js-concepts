@@ -3,11 +3,9 @@ function Person(name, age) {
     this.name = name;
     this.age = age;
 }
-
-
 // Subclass 
 function Cricketer(name, age, type, country) {
-    Person.call(this);
+    Person.call(this); //parent and child ar moddhe connection 1st step.r ai this hossce Cricketer ar this
     this.type = type;
     this.country = country;
     this.name = name;
@@ -24,8 +22,9 @@ Person.prototype = {
      },
  }
 
- Cricketer.prototype = Object.create(Person.prototype)
- Cricketer.prototype.constructor = Cricketer;
+ Cricketer.prototype = Object.create(Person.prototype) //2nd step
+ Cricketer.prototype.constructor = Cricketer; //3rd step
+  
  Cricketer.prototype.play = function () {
      console.log(`${this.name} is playng`);
  }
