@@ -1,4 +1,4 @@
-// Prototype: prototype asole kichui na just akta javaScript property jaita akta object ke point kore.
+// Prototype: prototype asole kichui na just akta javaScript je kono function ar property jaita akta object ke point kore.
 // Constructor: 1 ta function er maddhome 1 ta object ke construct korchi
 
 // const personMethods = {

@@ -29,3 +29,19 @@ function myFunction() {
 }
 
 myFunction()
+
+var ab = 10;
+// console.log(ab);
+
+function myAB() { 
+  ab = 14;
+  console.log(ab);
+}
+console.log(ab);
+myAB()
+
+{
+  let j = "Volvo";
+}
+console.log(j);
+

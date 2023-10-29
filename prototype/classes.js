@@ -3,6 +3,7 @@ function Person(name, age) {
     this.name = name;
     this.age = age;
 }
+
 // Subclass 
 function Cricketer(name, age, type, country) {
     Person.call(this); //parent and child ar moddhe connection 1st step.r ai this hossce Cricketer ar this
@@ -36,7 +37,7 @@ Person.prototype = {
 
 //  To create building function 
 // Object.prototype.noman = function(){
-//     console.log('I ama a noman');
+//     console.log('I am a noman');
 // }
 
 // const p = {};
